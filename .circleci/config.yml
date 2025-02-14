@@ -12,7 +12,7 @@ workflows:
 
 jobs:
   build:
-    working_directory: ~/devops-project
+    working_directory: ~/nci-devops
     docker:
       - image: circleci/node:10.16.3
     steps:
